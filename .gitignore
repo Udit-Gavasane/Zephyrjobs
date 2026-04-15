@@ -1,0 +1,11 @@
+# ZephyrJobs
+.env
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.next/
+output/
+*.pdf
+*.aux
+*.log

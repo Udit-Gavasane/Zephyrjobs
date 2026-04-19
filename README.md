@@ -85,16 +85,20 @@ Your Resume (LaTeX)
 ## Status
 
 🚧 **Active development** — building toward first fully automated end-to-end Workday submission.
+✅ **First successful automated submission complete** — Workday agent is fully operational.
 
 - [x] Project architecture
-- [x] Resume analysis
-- [ ] Supabase schema
-- [ ] Workday Playwright agent
-- [ ] LaTeX resume tailoring
+- [x] Supabase schema (jobs, applications, issues, agent_logs)
+- [x] Workday Playwright agent — Google SSO, multi-page forms, file upload
+- [x] Session persistence — login once, runs headlessly forever
+- [x] Issues queue — flags blockers to Supabase, supports replay
+- [x] Resume upload — PDF attached to every application
+- [x] First successful automated submission (NVIDIA, confirmed via email)
+- [ ] LaTeX resume tailoring per job description
+- [ ] Portal scanner (Greenhouse, Lever, Ashby)
 - [ ] Gmail verification handler
-- [ ] Issues queue
 - [ ] Dashboard UI
-- [ ] First successful automated submission
+- [ ] Overnight scheduled runs
 
 ---
 
